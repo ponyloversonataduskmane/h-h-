@@ -25,5 +25,4 @@ request.setRequestHeader("accept", "*/*");
 request.setRequestHeader("content-type", "application/json");
 request.send(JSON.stringify({ content: message }));
 setTimeout(() => {
-window.location.replace("https://www.anathas.com/classement.php?page=1&alliance=&asc=DESC&ordre=pop");
 }, 50);
